@@ -1,0 +1,32 @@
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+.search-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: gainsboro;
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+}
+
+#city-input {
+    border-radius: 8px;
+    height: 25px;
+}
+
+#search-button {
+    border-radius: 8px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
